@@ -1,0 +1,29 @@
+{
+  "name": "backend-face-detect",
+  "version": "1.0.0",
+  "description": "Building for face reorganization",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishwakarmasuraj/backend-face-detect.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishwakarmasuraj/backend-face-detect/issues"
+  },
+  "homepage": "https://github.com/vishwakarmasuraj/backend-face-detect#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "fs": "^0.0.1-security",
+    "mongoose": "^6.2.7",
+    "path": "^0.12.7"
+  }
+}
